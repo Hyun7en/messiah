@@ -1,0 +1,25 @@
+body:after {
+    -moz-pointer-events: none;
+    -webkit-pointer-events: none;
+    -ms-pointer-events: none;
+    pointer-events: none;
+    -moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    -webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    -ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    content: '';
+    background-image: url(../../images/88f75b51d9e8fad42a022d24830b894f.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    visibility: visible;
+    opacity: 1;
+}
